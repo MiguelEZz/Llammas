@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+    /* HEADER */
+header {
+    width: 100%;
+    height: 100px;
+    background-color:  rgb(49, 49, 49);
+}
+
+header .header-icons{
+display: flex;
+justify-content: space-around;
+width: 85%;
+height: 100%;
+margin: 0 auto;
+
+}
+
+.header-icons .search{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+.header-icons .search img{
+    width: 100%;
+    height: 100%;
+}
+.header-icons .logo{
+    margin-top: 10%;
+    width: 70px;
+    height: 70px;
+}
+.header-icons .logo img{
+    width: 100%;
+    height: 100%;
+}
+.header-icons .desplegable{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+.header-icons .desplegable img{
+    width: 100%;
+    height: 100%;
+}
+
+    /* MAIN */
+main{
+    background-color: rgb(49, 49, 49);
+}
+
+.product-season{
+    width: 95%;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    /* position: absolute; */
+}
+.product-season .descriptor{
+    width: 50%;
+    height: 20px;
+    margin: 0 auto;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+
+.product-season img{
+    width: 100%;
+    height: 500px;
+}
+
+
+    /* FOOTER */
+
+.contacto{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 49, 49);
+}
+.contacto .property{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(83, 83, 83) ;
+    margin: 0 auto;
+}
+
+.contacto .redes{
+    width:100%;
+    height: 50px;
+    margin-top:10px ;
+    background-color: rgb(83, 83, 83) ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.redes .social-media{
+    width:20%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-media .insta {
+    width: 20px;
+    height: 20px;
+}
+
+.social-media .face {
+    width: 20px;
+    height: 20px;
+}
+.social-media .insta img {
+    width:100%;
+    height:100%;
+}
+
+.social-media .face img {
+    width:100%;
+    height:100%;
+}
